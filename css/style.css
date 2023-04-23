@@ -1,0 +1,70 @@
+@import url("reset.css");
+
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main{
+	flex-grow:1;
+}
+
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.bottom-page {
+	display: flex;
+	column-gap: 136px;
+}
+.bottom-page__left {
+	display: flex;
+	flex-flow: column;
+	flex: 0 0 500px;
+	row-gap: 40px;
+}
+.left-part {
+
+
+}
+.left-part__block {
+	display: flex;
+	row-gap: 30px;
+	column-gap: 30px;
+	row-gap: 40px;
+}
+.left-part__image {
+}
+.left-part__items {
+	display: flex;
+	flex-flow: column;
+	row-gap: 15px;
+}
+.date {
+}
+.title {
+}
+.text {
+}
+.autograph {
+}
+
+.right-part{
+	display: flex;
+	position: relative;
+}
+
+.right-part__block {
+	display: flex;
+	flex-flow: column;
+	row-gap: 15px;
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+	color: aliceblue;
+	max-width: 391px;
+	align-items: flex-start;
+}
